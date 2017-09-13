@@ -1,0 +1,31 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+  
+# dependencies                                                                                                                                                                                              
+node_modules/*
+!node_modules/APP
+
+# testing
+coverage
+
+# production
+build
+build_webpack
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+ .truffle-solidity-loader
+
+ # Ignore all node_modules                                                                                                                                                                                          
+ .vscode
+ package-lock.json
+ yarn.lock
+      
+# ...except the symlink to ourselves.
+# Compiled JS
+public/bundle.js
+public/bundle.js.map
+              
+# NPM errors
+npm-debug.log

@@ -1,0 +1,11 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore built files except build/index.js
+public/*
+truffle-box.json
+truffle-config.js
+truffle.js
+migrations/*
+contracts/*
+build/*
+
